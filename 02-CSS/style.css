@@ -1,0 +1,38 @@
+/* 
+Basic syntax
+  
+    selector{
+        property:value;
+        property:value;
+    }
+
+Including CSS to HTML
+    <link rel="stylesheet"type="text/css"  href="style.css" >
+
+CSS are 3 types
+     
+    Type 1: Internal CSS
+            <style>
+                selector{
+                    property:value;
+                    property:value;
+                } 
+            </style>
+    
+    Type 2: Inline CSS
+                <tag style="property:value;"> </tag>
+
+    Type 3: External CSS
+                CONNECT css file to HTML file
+                <link rel="stylesheet"type="text/css"  href="style.css" >
+                Than style to select the CLASS/ID name 
+
+                CLASS/ID{
+                    property:value;
+                    property:value;
+                }
+                .class_name / #id_name{
+                    property:value;
+                    property:value;
+                }
+*/
